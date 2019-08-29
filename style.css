@@ -95,6 +95,15 @@ p {
   color: #333;
 }
 
+#section-b a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+#section-b a:hover {
+    text-decoration: none;
+    color: #666;
+  }
+
 .card-content {
   padding: 1.5em;
 }
@@ -107,7 +116,7 @@ p {
   padding: 2em;
 }
 
-/* Section D / Boces */
+/* Section D / Boxes */
 
 #section-d .box{
   padding: 2em;
