@@ -1,0 +1,84 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+
+a:link{
+    color: #fff;
+    text-decoration: none;
+}
+a:visited{
+    color: #fff;
+}
+a:hover{
+    color:  green; 
+}
+.bgimg-1, .bgimg-2, .bgimg-3{
+    position
+    : relative;
+    opacity: 0.70;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1{
+    /*<span>Photo by <a href="https://unsplash.com/@alexkixa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alexandre Debiève</a> on <a href="https://unsplash.com/s/photos/tech?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
+    background-image: url("images/cboard.jpg");
+    min-height: 60%;
+}
+
+.bgimg-2{
+    background-image: url("images/eduSelf.JPG");
+    min-height: 50%;
+}
+
+.home{
+    position: absolute;
+    left: 0;
+    top: 0%;
+    width: 100%;
+    text-align: left;
+    color: #000;
+}
+
+.home span.border{
+    background-color: #111;
+    color: #fff;
+    padding: 8px;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border{
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+h3{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+}
+
+@media only screen and (max-devide-width: 1024px){
+    .bgimg-1{
+        background-attachment: scroll;
+    }
+}
