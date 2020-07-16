@@ -81,6 +81,10 @@ h3{
     color: #111;
 }
 
+ul{
+    list-style-image: url("images/gear.png");
+}
+
 @media only screen and (max-devide-width: 1024px){
     .bgimg-1{
         background-attachment: scroll;
